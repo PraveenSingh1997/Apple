@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apple Clone</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+
+            body{
+                margin : 0 px ;
+                height  : 4000 px ;
+            }
+            .header{
+                background-color: #434344;
+                display: flex ;
+                flex-direction:  row ;
+                justify-content: space-between;
+                margin-top: 0;
+                flex : 1 ; 
+                position: fixed ;
+                height: 40px;
+                align-items: center;
+                font-size: 14px ;
+                top : 0 ; 
+                left : 0 ; 
+                right : 0 ; 
+                color : #DADADA ; 
+                font-family: Arial;
+                padding-left: 800px ;
+                padding-right :800px ;
+                
+                ;
+
+
+
+            }
+            .vision-pro{
+                margin-top: 50px;
+                height : 700px ; 
+                background-color: #F5F5F7;
+                margin-left: 0 ;
+                display: flex ;
+                justify-content: center;
+                margin-bottom: 12px ;
+                position: relative;
+            }
+            
+
+            .centered {
+                position: absolute;
+                top: 86%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                vertical-align: middle;
+                padding-bottom: 80px;
+                text-align: center;
+                
+                
+            }
+
+            .centered1 {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                vertical-align: middle;
+                padding-bottom: 80px;
+                text-align: center;
+                
+                
+            }
+
+            .centered2 {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                vertical-align: middle;
+                padding-bottom: 80px;
+                text-align: center;
+                
+                
+            }
+
+            .apple-card{
+                display: flex;
+                align-items: center; /* Vertical alignment */
+                justify-content: center; /* Horizontal alignment */
+            }
+
+            .vision-pro-text{
+                font-size: 50px ;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                font-weight: 500 ;
+                margin-top: 0;
+            }
+
+            .pre-order{
+                font-size: 20px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                color: #86868b;
+            }
+
+            
+            
+            .iphone-pro{
+                height: 700px ; 
+                display: flex ;
+                justify-content: center;
+                background-color: #000000;
+                height : 700px ; 
+                
+                margin-left: 0 ;
+                
+                margin-bottom: 12px ;
+                position: relative;
+            }
+
+            .iphone-15-pro{
+                color: white;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                font-size: 50px;
+                font-weight: 500;
+                margin: 0;
+            }
+            .iphone-15{
+                color: black;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                font-size: 50px;
+                font-weight: 500;
+                margin: 0;
+            }
+
+            .grid-container{
+                display: grid ;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 20px ;
+                row-gap : 20px ; 
+            }
+
+            .grid-item-1{
+                position: relative;
+
+            }
+
+            .welcome-line{
+                font-size: 25px ;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                margin: 0;
+            }   
+            .iphone-15-pro-tagline{
+                font-size: 25px ;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                margin: 0;
+                color: white;
+
+            }
+
+            .iphone-15-tagline{
+                font-size: 25px ;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                margin: 0;
+                color: black;
+            }
+
+           
+            .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+                margin-left: 5px ;
+            }
+            
+            .vision-learn-more{
+                color : #2690f4 ; 
+                
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                
+                
+                font-size: 20px ;
+            }
+
+            .vision-learn-more-white{
+                color : white ; 
+                
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                
+                
+                font-size: 20px ;
+
+            }
+
+            .watch-9{
+                color : red ; 
+                font-size: 15px     ;
+                margin: 0;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+            }
+            
+            .items-links{
+                display: flex;
+                flex-direction:  row ;
+                justify-content: space-between;
+                padding-left: 20px ;
+                padding-right: 20px;
+
+            }
+
+            
+
+            
+
+            
+        </style>
+        
+    <body>                      
+        <div class="header">
+            
+            <div class="header_apple_icon">
+            <img src="images/icons8-apple-24-color.png">
+            </div>
+            <p> Store </p>
+            <p> Mac </p>
+            <p> iPad </p>
+            <p> iPhone </p>
+            <p> Watch </p>
+            <p> Vision </p>
+            <p> AirPods </p>
+            <p> TV & Home </p>
+            <p> Entertainment </p>
+            <p> Accessories </p>
+            <p> Support </p>
+            <img src="images/icons8-search-30-color.png"  > 
+            <img src="images/icons8-cart-24 -color.png"  > 
+
+
+
+        </div>
+
+        <div class="vision-pro">
+            <img style="width: 100%;" class="vision-pro-wallpaper" src="images/www.apple.com-1704799791427/hero_apple_vision_pro__e8407ehady6i_largetall.jpg">
+            <div class="centered">
+                <div class="icon-text">
+                    <img class="apple-icon-vision-pro" src="images/icons8-apple-logo-windows-metro/icons8-apple-48.png">
+                    <span class="vision-pro-text">Vision Pro</span>
+                </div>
+                
+                <p class="welcome-line">Welcome to the era of spatial computing.</p>
+                <p class="pre-order">Pre-order starting 1.19 at 5:00 a.m. PT<br>Available starting 2.2</p>
+                <p class="vision-learn-more"> Learn more ...</p>
+
+            </div>
+        </div>
+
+        <div class="iphone-pro">
+            <img style="width: 100%;" class="titanium-iphone" src="images/www.apple.com-1704799791427/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg">
+            <div class="centered1">
+                <p class="iphone-15-pro">iPhone 15 Pro</p>
+                
+                <p class="iphone-15-pro-tagline">Titanium. So strong. So light. So Pro</p>
+                
+                <p class="vision-learn-more"> Learn more ></p>
+
+            </div>
+        </div>
+
+        <div class="iphone-pro">
+            <img style="width: 100%;" class="titanium-iphone" src="images/www.apple.com-1704799791427/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg">
+            <div class="centered2">
+                <p class="iphone-15">iPhone 15 </p>
+                
+                <p class="iphone-15-tagline">New Camera. New design. Newphoria</p>
+                
+                <p class="vision-learn-more"> Learn more ></p>
+
+            </div>
+        </div>
+
+        
+        <div class="grid-container">
+            <div class="grid-item-1">
+                <img src="images/www.apple.com-1704799791427/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg">
+                <div class="centered1">
+                    <div class="apple-card">
+                        <img style="width: 50px ; height: auto ; " class="apple-icon-vision-pro" src="images/icons8-apple-logo-windows-metro/icons8-apple-48-white.png">
+                        <span style="color: white;" class="iphone-15">WATCH </span>
+                    </div>
+                    <p class="watch-9">SERIES 9</p>
+                    
+                    <p class="iphone-15-pro-tagline">Smarter. Brighter. Mightier.</p>
+                    
+                    <div class="items-links">
+                        <p class="vision-learn-more"> Learn more ></p>
+                        <p class="vision-learn-more"> Buy ></p>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="grid-item-1">
+            
+               <img src="images/www.apple.com-1704799791427/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg">
+               <div class="centered2">
+                <div class="apple-card">
+                    <img style="width: 50px ; height: auto ; " class="apple-icon-vision-pro" src="images/icons8-apple-logo-windows-metro/icons8-apple-48.png">
+                    <span class="iphone-15">WATCH</span>
+                </div>
+               
+                    <p class="watch-9">ULTRA 2</p>
+                    <p class="iphone-15-tagline">Next Level adventure.</p>
+                    <div class="items-links">
+                        <p class="vision-learn-more"> Learn more ></p>
+                        <p class="vision-learn-more"> Buy ></p>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="grid-item-1">
+                <img src="images/www.apple.com-1704799791427/promo_mbp__ek7p477bkp6q_large.jpg">
+                <div class="centered2">
+                    <p class="iphone-15">MacBook Pro</p>
+                    
+                    <p class="iphone-15-tagline">Mind-blowing. Head-turning.</p>
+                    
+                    <div class="items-links">
+                        <p class="vision-learn-more"> Learn more ></p>
+                        <p class="vision-learn-more"> Buy ></p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-1">
+                <img src="images/www.apple.com-1704799791427/promo__sw58lbodkmqq_large.jpg">
+                <div class="centered1">
+                    <div class="apple-card">
+                        <img style="width: 50px ; height: auto  ;" class="apple-icon-vision-pro" src="images/icons8-apple-logo-windows-metro/icons8-apple-48-white.png">
+                        <span style="color: white;" class="iphone-15">Fitness+ </span>
+                    </div>
+                    
+                    <p class="iphone-15-pro-tagline">Work out to an entire playlist of <br> music by your favorite artists.</p>
+                    
+                    <div class="items-links">
+                        <p class="vision-learn-more-white"> Learn more ></p>
+                        <p class="vision-learn-more-white"> Try it free ></p>
+                    </div>
+    
+                </div>  
+            </div>
+            <div class="grid-item-1">
+                
+                <img src="images/www.apple.com-1704799791427/tile__cauwwcyyn9hy_large.jpg">
+                <div class="centered2">
+                    <div class="apple-card">
+                        <img style="width: 50px ; height: auto ; " class="apple-icon-vision-pro" src="images/icons8-apple-logo-windows-metro/icons8-apple-48.png">
+                        <span class="iphone-15">Card </span>
+                    </div>
+                    <p class="iphone-15-tagline">Get up to 3% Daily Cash back<br>with every purchase</p>
+                    
+                    <div class="items-links">
+                        <p class="vision-learn-more"> Learn more ></p>
+                        <p class="vision-learn-more">Apply now ></p>
+                    </div>
+                </div>
+            </div>
+                <div class="grid-item-1">
+                    <img src="images/www.apple.com-1704799791427/promo_iphone_tradein__bugw15ka691e_large.jpg">\
+                    <div class="centered2">
+
+                        <div class="apple-card">
+                            <img style="width: 50px ; height: auto  ;" class="apple-icon-vision-pro" src="images/icons8-apple-logo-windows-metro/icons8-apple-48.png">
+                            <span class="iphone-15">Trade In </span>
+                        </div>
+                        
+                        
+                    
+                        
+                        <p class="iphone-15-tagline">Get $200-$650 in credit when <br> you trade in iPhone 11 or higher</p>
+                        
+                        
+                            <p class="vision-learn-more">See what your device is worth ></p>
+                            
+                            
+        
+                    </div>
+                
+            </div>           
+        </div>
+        </div>
+    </body>
+</html>
+
